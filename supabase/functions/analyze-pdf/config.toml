@@ -1,0 +1,5 @@
+[global]
+environment_variables = ["HUGGINGFACE_API_KEY"]
+
+[deploy]
+env_file = ".env"
