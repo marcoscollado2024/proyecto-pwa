@@ -5,7 +5,7 @@ import { getPDFs, deletePDF, savePDF } from './lib/supabase';
 import { generateThumbnail, preparePDFForViewing } from './lib/pdfUtils';
 import { chatWithAI } from './lib/ai';
 import { PDFModal } from './components/PDFModal';
-import { InstallPWA } from './components/InstallPWA';
+
 
 function App() {
   const [biblioteca, setBiblioteca] = useState<PDFLibrary>({});
